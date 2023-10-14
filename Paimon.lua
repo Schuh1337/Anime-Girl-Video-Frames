@@ -3,7 +3,7 @@ local Active = true
 if not isfolder("paimon") then
     makefolder("paimon")
     if not isfile("paimon/paimon.webm") then
-        data = game:HttpGet("https://0x54.pw/mascot.webm")
+        data = game:HttpGet("https://luaxx.com/Resources/PovSchuh.webm")
         writefile("paimon/paimon.webm", data)
     end
 end
